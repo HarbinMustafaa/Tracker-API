@@ -21,21 +21,6 @@ This project is a demonstration of the Smart Tracker application, which allows u
 - Insomnia
 - mySql.
 
-### About the entities
-This project has five entities.
-Device entity
-Has a One-to-One relationship with the User entity 
-Has a One-to-Many relationship with the Location
-
-Has a One-to-Many relationship with the Activity
-User entity
-Has a One-to-One relationship with the Device entity
-Location Entity
-Has a Many-to-One relationship with the Device entity 
-Activity Entity
-Has a Many-to-One relationship with the Device entity  implying that multiple activities can be associated with a single device.
-Has a Many-to-One relationship with the Category entity indicating that multiple activities can belong to a single category.
-
 ## How i can use this project
 The idea of the project was to build a Rest API that track your data. You made an activity and you want to store it somewhere.
 This app helps to solve this problem. For example you made an activity of type programming.
